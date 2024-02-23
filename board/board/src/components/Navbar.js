@@ -43,37 +43,42 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/voc' className='nav-links' onClick = {closeMobileMenu}>
+                            <Link to='/voc' className='nav-links' onClick={closeMobileMenu}>
                                 Voc
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/jun' className='nav-links' onClick = {closeMobileMenu}>
+                            <Link to='/jun' className='nav-links' onClick={closeMobileMenu}>
                                 Jun
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/scm' className='nav-links' onClick = {closeMobileMenu}>
+                            <Link to='/scm' className='nav-links' onClick={closeMobileMenu}>
                                 Scm
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/nam/login_nam' className='nav-links' onClick = {closeMobileMenu}>
+                            <Link to='/nam/login_nam' className='nav-links' onClick={closeMobileMenu}>
                                 Nam
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/sbLogin' className='nav-links' onClick = {closeMobileMenu}>
+                            <Link to='/sbLogin' className='nav-links' onClick={closeMobileMenu}>
                                 SB
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/board' className='nav-links' onClick = {closeMobileMenu}>
+                            <Link to='/board' className='nav-links' onClick={closeMobileMenu}>
                                 SH
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links-mobile' onClick = {closeMobileMenu}>
+                            <Link to='/pages/Hgive/Hg' className='nav-links' onClick={closeMobileMenu}>
+                                Hgive
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Sign Up
                             </Link>
                         </li>

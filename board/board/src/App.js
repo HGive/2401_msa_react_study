@@ -32,6 +32,7 @@ import SBCreate from "./pages/sb/SBCreate";
 import SBUpdate from "./pages/sb/SBUpdate";
 import Board from './pages/SH/Board'; // 추가 된 내용
 import BoardView from './pages/SH/BoardView'; // 추가 된 내용
+import Hg from './pages/Hgive/Hg'
 import Login from './pages/SH/Login';
 
 function App() {
@@ -71,6 +72,7 @@ function App() {
             <Route exact path='/' element={<Home />} />
             <Route path='/board' element={<Board/>} />
             <Route path='/board/:bId' element={<BoardView/>} />
+            <Route path='/pages/Hgive/Hg' element={<Hg />}/>
             <Route path='/Login' element={<Login/>} />
           </Routes>
         </Router>
