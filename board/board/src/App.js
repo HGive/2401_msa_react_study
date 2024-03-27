@@ -74,8 +74,8 @@ function App() {
             <Route exact path='/' element={<Home />} />
             <Route path='/board' element={<Board/>} />
             <Route path='/board/:bId' element={<BoardView/>} />
-            <Route path='/pages/Hgive/Hg' element={<Hg />}/>
-            <Route path='/Login' element={<Login/>} />
+            <Route path='/pages/Hgive/Hg' element={<Hg/>}/>
+            {/*<Route path='/Login' element={<Login/>} />*/}
           </Routes>
         </Router>
       </>
